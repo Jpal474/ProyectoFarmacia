@@ -16,7 +16,7 @@
     <ion-icon name="cart-outline" class="icono"></ion-icon>
     <ion-icon name="location-outline" class="icono"></ion-icon>
     <ion-icon name="newspaper-outline" class="icono"></ion-icon>
-
+    
     <nav class="navbar navbar-expand-lg bg-success text-color-white">
         <div class="container-fluid text-center">
             <a class="navbar-brand" href="#">FarmaPeri</a>
@@ -154,40 +154,100 @@
   <div ALIGN=center>
     <h2>Los Más Vendidos</h2>
   </div>
-  <div class="container text-center">
-    <div class="row align-items-center">
-      <div class="col">
-        <div class="card2" style="width: 18rem;">
-            <img src="https://dmesa.com.mx/wp-content/uploads/2022/11/Vickjarabetos44.png" class="card-img-top" alt="...">
-            <div class="card-body2">
-              <h5 class="card-title">Jarabe Para la Tos</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Añadir</a>
+  <section class="product"> 
+    <h2 class="product-category">best selling</h2>
+    <button class="pre-btn"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUMI5qbz1sF2C2S677Go7RZQnaPX9g3D5YU-wLJ-9n-0-zLhvin-P85M7b9sBu6rhvQgM&usqp=CAU" alt=""></button>
+    <button class="nxt-btn"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUMI5qbz1sF2C2S677Go7RZQnaPX9g3D5YU-wLJ-9n-0-zLhvin-P85M7b9sBu6rhvQgM&usqp=CAU" alt=""></button>
+    <div class="product-container">
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="data:image/jpeg;base64,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" class="product-thumb" alt="">
+                <button class="card-btn">add to wishlist</button>
             </div>
-          </div>
-      </div>
-      <div class="col">
-        <div class="card2" style="width: 18rem;">
-            <img src="https://paracetamol.bayer.com.ar/sites/g/files/vrxlpx30376/files/2022-10/PACK%20PARACETAMOL%20BAYER.png?imwidth=5000" class="card-img-top" alt="...">
-            <div class="card-body2">
-              <h5 class="card-title" >Paracetamol</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Añadir</a>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line about the cloth..</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
             </div>
-          </div>
-      </div>
-      <div class="col">
-        <div class="card2" style="width: 18rem;">
-            <img src="https://tienda.farmaciasroma.com/media/catalog/product/cache/8cfc93e6196efd5c8964fe64a59d97bb/3/f/3f54b7dec2e195de0a93545b3f03a1c4_7501318612655-1.png" class="card-img-top" alt="...">
-            <div class="card-body2">
-              <h5 class="card-title">Aspirinas</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Añadir</a>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="https://images.ctfassets.net/j0994xxhz671/Xtehv9811lt7Ch8xGrIj3/e9ec1ae136a9dfc7d54364bb013099d7/jarabe_44_240ml.Final_Color_Output.0004_840.png" class="product-thumb" alt="">
+                <button class="card-btn">add to wishlist</button>
             </div>
-          </div>
-      </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line about the cloth..</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="https://images.ctfassets.net/j0994xxhz671/4R1FWRAaGx1c2yamO2DQj0/6312656b30d425d6d91c3adce02089bd/VapoRub_50g_jar_open.Final_Color_Output.0004_840.png" class="product-thumb" alt="">
+                <button class="card-btn">add to wishlist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line about the cloth..</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="https://tienda.farmaciasroma.com/media/catalog/product/cache/8cfc93e6196efd5c8964fe64a59d97bb/3/f/3f54b7dec2e195de0a93545b3f03a1c4_7501318612655-1.png" class="product-thumb" alt="">
+                <button class="card-btn">add to wishlist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line about the cloth..</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="images/card5.jpg" class="product-thumb" alt="">
+                <button class="card-btn">add to wishlist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line about the cloth..</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="images/card6.jpg" class="product-thumb" alt="">
+                <button class="card-btn">add to wishlist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line about the cloth..</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="images/card7.jpg" class="product-thumb" alt="">
+                <button class="card-btn">add to wishlist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line about the cloth..</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+        
+        
     </div>
-  </div>
+</section>
+           
   
 
 </body>
@@ -267,6 +327,24 @@
 </footer>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script>
+  const productContainers = [...document.querySelectorAll('.product-container')];
+const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
+const preBtn = [...document.querySelectorAll('.pre-btn')];
+
+productContainers.forEach((item, i) => {
+    let containerDimensions = item.getBoundingClientRect();
+    let containerWidth = containerDimensions.width;
+
+    nxtBtn[i].addEventListener('click', () => {
+        item.scrollLeft += containerWidth;
+    })
+
+    preBtn[i].addEventListener('click', () => {
+        item.scrollLeft -= containerWidth;
+    })
+})
+</script>
 <style>
     .icono{
         font-size: 30px;
@@ -325,5 +403,185 @@ background-color: #198754;
     .card-title{
       color:  #0dcaf0;
     }
+    .product {
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.product-category {
+  padding: 0 10vw;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
+
+.product-container {
+  padding: 0 10vw;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.product-container::-webkit-scrollbar {
+  display: none;
+}
+
+.product-card {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 450px;
+  margin-right: 40px;
+}
+
+.product-image {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+.product-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.discount-tag {
+  position: absolute;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  color: #ff7d7d;
+  right: 10px;
+  top: 10px;
+  text-transform: capitalize;
+}
+
+.card-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  width: 90%;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  background: #fff;
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.product-card:hover .card-btn {
+  opacity: 1;
+}
+
+.card-btn:hover {
+  background: #ff7d7d;
+  color: #fff;
+}
+
+.product-info {
+  width: 100%;
+  height: 100px;
+  padding-top: 10px;
+}
+
+.product-brand {
+  text-transform: uppercase;
+}
+
+.product-short-description {
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  overflow: hidden;
+  opacity: 0.5;
+  text-transform: capitalize;
+  margin: 5px 0;
+}
+
+.price {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.actual-price {
+  margin-left: 20px;
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.pre-btn,
+.nxt-btn {
+  border: none;
+  width: 10vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+  cursor: pointer;
+  z-index: 8;
+}
+
+.pre-btn {
+  left: 0;
+  transform: rotate(180deg);
+}
+
+.nxt-btn {
+  right: 0;
+}
+
+.pre-btn img,
+.nxt-btn img {
+  opacity: 0.2;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img {
+  opacity: 1;
+}
+
+.collection-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.collection {
+  position: relative;
+}
+
+.collection img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.collection p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+.collection:nth-child(3) {
+  grid-column: span 2;
+  margin-bottom: 10px;
+}
+
 </style>
 </html>
