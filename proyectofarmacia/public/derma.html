@@ -22,7 +22,7 @@
   
     <nav class="navbar bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="https://media.istockphoto.com/id/1275720974/es/vector/salud-cruzada-m%C3%A9dica-azul-y-verde.jpg?s=612x612&w=0&k=20&c=1RPQ4cbPcEq02OpNkUaKk-DkpYKJKYLWUl2K39W4hG8=" width="50" height="50">
+        <a class="navbar-brand" href="inicio.html"><img src="https://media.istockphoto.com/id/1275720974/es/vector/salud-cruzada-m%C3%A9dica-azul-y-verde.jpg?s=612x612&w=0&k=20&c=1RPQ4cbPcEq02OpNkUaKk-DkpYKJKYLWUl2K39W4hG8=" width="50" height="50">
           FarmaPeri</a>
   
         <ul class="nav">
@@ -32,8 +32,9 @@
               Nutricion y deporte 
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Alimentos Saludables</a></li>
+              <li><a class="dropdown-item" href="#">Bebidas Saludables</a></li>
+              <li><a class="dropdown-item" href="#">Nutricion Deportiva</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -42,55 +43,28 @@
               Derma
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="derma.html">Capilares</a></li>
+              <li><a class="dropdown-item" href="#">Cuidado Solar</a></li>
+              <li><a class="dropdown-item" href="#">Fragancias</a></li>
             </ul>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <li class="nav-item">
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               <ion-icon name="man-outline"></ion-icon>
               Diabetes
             </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <li class="nav-item">
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               <ion-icon name="male-female-outline"></ion-icon>
               Mamás y Papás
             </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <li class="nav-item">
+            <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               <ion-icon name="happy-outline"></ion-icon>
               Higiene Bucal
             </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
           </li>
         </ul>
   
@@ -123,6 +97,15 @@
               <input class="form-control me-2" type="search" placeholder="Buscar....." aria-label="Search">
               <button class="btn btn-outline-success" type="submit"><ion-icon name="search-outline"></ion-icon></button>
             </form>
+<br><br>
+            <div class="row justify-content-around">
+              <div class="col-lg-4">
+                <a class="btn btn-outline-primary" href="login.html" role="button">Iniciar Sesion</a>
+              </div>
+              <div class="col-lg-4">
+                <a class="btn btn-outline-primary" href="registro.html" role="button">Registrate sin costo</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -237,13 +220,24 @@
           <div class="accordion-item bg-transparent">
             <h2 class="accordion-header" id="panelsStayOpen-headingThree">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                Marca
+                Tipo de Piel
               </button>
             </h2>
             <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampRadios2" id="exampRadios1" value="option1" checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    Seca
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampRadios2" id="exampRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios2">
+                    Sensible
+                  </label>
+                </div>
+               </div>
             </div>
           </div>
         </div>
@@ -262,9 +256,9 @@
         <ul>
           <h6>Por pagina:  </h6>
         <select class="form-select justify-content-end" aria-label="Default select example">
-          <option selected>23</option>
-          <option value="1">35</option>
-          <option value="2">37</option>
+          <option selected>20</option>
+          <option value="1">30</option>
+          <option value="2">40</option>
         </select>
         </ul>
         </ul>
@@ -285,7 +279,7 @@
             <div class="col">
               <div class="p-3">
                 <div class="card" style="width: 18rem;">
-                  <img src="https://cdn1.coppel.com/images/catalog/mkp/2060/3000/20601089-1.jpg" class="card-img-top" alt="...">
+                  <img src="https://cdn2.actitudfem.com/media/files/media/files/la_roche-posay-_cremas_hidratantes_para_piel_grasa_de_marcas_dermatologicas_1.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -296,7 +290,7 @@
             </div>
             <div class="col">
               <div class="p-3"><div class="card" style="width: 18rem;">
-                <img src="https://cdn1.coppel.com/images/catalog/mkp/2060/3000/20601089-1.jpg" class="card-img-top" alt="...">
+                <img src="https://img.buzzfeed.com/buzzfeed-static/static/2021-05/24/18/asset/c1322ae3bccd/sub-buzz-6101-1621879390-19.png?downsize=900:*&output-format=auto&output-quality=auto" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -306,7 +300,7 @@
             </div>
             <div class="col">
               <div class="p-3"><div class="card" style="width: 18rem;">
-                <img src="https://cdn1.coppel.com/images/catalog/mkp/2060/3000/20601089-1.jpg" class="card-img-top" alt="...">
+                <img src="https://img.buzzfeed.com/buzzfeed-static/static/2021-05/24/17/asset/adca38ac9083/sub-buzz-5969-1621877530-17.png?downsize=900:*&output-format=auto&output-quality=auto" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -317,7 +311,7 @@
             <div class="col">
               <div class="p-3">
                 <div class="card" style="width: 18rem;">
-                <img src="https://cdn1.coppel.com/images/catalog/mkp/2060/3000/20601089-1.jpg" class="card-img-top" alt="...">
+                <img src="https://www.myskinbook.com/storage/productos/imagen_grande_1_1634062123.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -329,7 +323,7 @@
             <div class="col">
               <div class="p-3">
                 <div class="card" style="width: 18rem;">
-                  <img src="https://cdn1.coppel.com/images/catalog/mkp/2060/3000/20601089-1.jpg" class="card-img-top" alt="...">
+                  <img src="https://phantom-telva.unidadeditorial.es/865c82300261672da3376202589b6fc8/resize/828/f/jpg/assets/multimedia/imagenes/2020/02/24/15825836608620.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -341,7 +335,7 @@
             <div class="col">
               <div class="p-3">
                 <div class="card" style="width: 18rem;">
-                  <img src="https://cdn1.coppel.com/images/catalog/mkp/2060/3000/20601089-1.jpg" class="card-img-top" alt="...">
+                  <img src="https://www.myskinbook.com/storage/productos/imagen_grande_1_1632247852.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -353,7 +347,7 @@
             <div class="col">
               <div class="p-3">
                 <div class="card" style="width: 18rem;">
-                  <img src="https://cdn1.coppel.com/images/catalog/mkp/2060/3000/20601089-1.jpg" class="card-img-top" alt="...">
+                  <img src="https://i.pinimg.com/736x/8a/04/2e/8a042ecdbd2e0c3924d763f80e032811.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -365,19 +359,7 @@
             <div class="col">
               <div class="p-3">
                 <div class="card" style="width: 18rem;">
-                  <img src="https://cdn1.coppel.com/images/catalog/mkp/2060/3000/20601089-1.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="p-3">
-                <div class="card" style="width: 18rem;">
-                  <img src="https://cdn1.coppel.com/images/catalog/mkp/2060/3000/20601089-1.jpg" class="card-img-top" alt="...">
+                  <img src="https://media.vogue.es/photos/60a634f6c846313468d43bb3/master/w_1600%2Cc_limit/Endocare_Radiance_OF_03.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

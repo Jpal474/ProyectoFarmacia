@@ -13,9 +13,9 @@
 <body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
    
-  <nav class="navbar bg-body-tertiary fixed-top">
+  <nav class="navbar bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="https://media.istockphoto.com/id/1275720974/es/vector/salud-cruzada-m%C3%A9dica-azul-y-verde.jpg?s=612x612&w=0&k=20&c=1RPQ4cbPcEq02OpNkUaKk-DkpYKJKYLWUl2K39W4hG8=" width="50" height="50">
+      <a class="navbar-brand" href="inicio.html"><img src="https://media.istockphoto.com/id/1275720974/es/vector/salud-cruzada-m%C3%A9dica-azul-y-verde.jpg?s=612x612&w=0&k=20&c=1RPQ4cbPcEq02OpNkUaKk-DkpYKJKYLWUl2K39W4hG8=" width="50" height="50">
         FarmaPeri</a>
 
       <ul class="nav">
@@ -25,8 +25,9 @@
             Nutricion y deporte 
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Alimentos Saludables</a></li>
+            <li><a class="dropdown-item" href="#">Bebidas Saludables</a></li>
+            <li><a class="dropdown-item" href="#">Nutricion Deportiva</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -35,55 +36,28 @@
             Derma
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="derma.html">Capilares</a></li>
+            <li><a class="dropdown-item" href="#">Cuidado Solar</a></li>
+            <li><a class="dropdown-item" href="#">Fragancias</a></li>
           </ul>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <li class="nav-item">
+          <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <ion-icon name="man-outline"></ion-icon>
             Diabetes
           </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <li class="nav-item">
+          <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <ion-icon name="male-female-outline"></ion-icon>
             Mamás y Papás
           </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <li class="nav-item">
+          <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <ion-icon name="happy-outline"></ion-icon>
             Higiene Bucal
           </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
         </li>
       </ul>
 
@@ -116,6 +90,15 @@
             <input class="form-control me-2" type="search" placeholder="Buscar....." aria-label="Search">
             <button class="btn btn-outline-success" type="submit"><ion-icon name="search-outline"></ion-icon></button>
           </form>
+<br><br>
+          <div class="row justify-content-around">
+            <div class="col-lg-4">
+              <a class="btn btn-outline-primary" href="login.html" role="button" id="btn1">Iniciar Sesion</a>
+            </div>
+            <div class="col-lg-4">
+              <a class="btn btn-outline-primary" href="registro.html" role="button" id="btn2">Registrate sin costo</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -146,22 +129,22 @@
       <hr class="divider">
       <div class="row justify-content-evenly">
         <div class="col-4">
-      <div class="card row align-items-start bg-success"> 
+      <div class="card row align-items-start text-light"> 
         <div class="card-body">
           <h5 class="card-title"><ion-icon name="bus-outline"></ion-icon>  ENVIO</h5>
           <p class="card-text">Consulta la cobertura de entregas que maneja nuestra farmacia y verifica que estes dentro de alguna.</p>
-          <a href="#" class="link-primary" >Aqui.</a>
+          <a href="#" class="link-light" >Aqui.</a>
         </div>
       </div>
       
       </div>
 
       <div class="col-4">
-        <div class="card row align-items-start bg-success">
+        <div class="card row align-items-start text-light">
           <div class="card-body">
             <h5 class="card-title"><ion-icon name="card-outline"></ion-icon>   Metodos de Pago</h5>     
             <p class="card-text">Checa los metodos de pago o verifica si algunas de tarjeta es participante en los modos de pago.</p>
-            <a href="#" class="link-primary">Aqui.</a>
+            <a href="#" class="link-light">Aqui.</a>
           </div>
         </div>
     </div>
@@ -292,7 +275,7 @@
                       </h2>
                       <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                           <a href="https://www.google.com/maps/place/SIEMSA+Centro+de+Ingenier%C3%ADa/@19.6893097,-101.1447119,15z/data=!4m6!3m5!1s0x842d0fadd6e71c15:0x1d7759c2b4a5a292!8m2!3d19.6893097!4d-101.1447119!16s%2Fg%2F11h26wm5dr"> Ocolusen 1640, Rincón de Ocolusen, 58270 Morelia, Mich.</a>
+                           <a class="link-light" href="https://www.google.com/maps/place/SIEMSA+Centro+de+Ingenier%C3%ADa/@19.6893097,-101.1447119,15z/data=!4m6!3m5!1s0x842d0fadd6e71c15:0x1d7759c2b4a5a292!8m2!3d19.6893097!4d-101.1447119!16s%2Fg%2F11h26wm5dr"> Ocolusen 1640, Rincón de Ocolusen, 58270 Morelia, Mich.</a>
                         </div>
                       </div>
                     </div>
@@ -372,10 +355,7 @@ productContainers.forEach((item, i) => {
     .carousel-inner{
         height: 200px;
     }
-    .dropdown-menu
-    {
-        background-color: #198754;
-    }
+
     .card{
         background-color:#162938;
      
@@ -390,11 +370,7 @@ productContainers.forEach((item, i) => {
         .accordion-item{
             background-color:#162938 ;
         }
-    .btn{
-       background-color: #0c4265;
-       text-emphasis-color: #fafafa;
-       text-decoration-color: #fafafa;
-    }
+
     .carousel-inner2{
         height: 10px;
     }
