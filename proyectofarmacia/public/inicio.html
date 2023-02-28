@@ -41,6 +41,17 @@
             <li><a class="dropdown-item" href="#">Fragancias</a></li>
           </ul>
         </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <ion-icon name="planet-outline"></ion-icon>
+            Bebes
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Formulas</a></li>
+            <li><a class="dropdown-item" href="#">Pañales</a></li>
+            <li><a class="dropdown-item" href="#">Alimento y cuidado</a></li>
+          </ul>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <ion-icon name="man-outline"></ion-icon>
@@ -282,16 +293,13 @@
         </div>
         <div class="col-2">
           <h6 class="text-white">Tienda en linea: </h6>
-          <ul class="fg-link-box">
-						<li><a class="text-decoration-none text-white">Nutricion y deporte</a></li>
-            <li><a href="derma.html" class="text-decoration-none text-white">Derma</a></li>
-            <li><a class="text-decoration-none text-white">Diabetes</a></li>
-            <li><a class="text-decoration-none text-white">Mamas y papas</a></li>
-            <li><a class="text-decoration-none text-white">Higiene Bucal</a></li>
-            <li><a class="text-decoration-none text-white">Bebes</a></li>
-            
-
-						
+          <ul id="ulLi" class="fg-link-box">
+						<li id="li1"><a class="text-decoration-none text-white">Nutricion y deporte</a></li>
+            <li id="li1"><a href="derma.html" class="text-decoration-none text-white">Derma</a></li>
+            <li id="li1"><a class="text-decoration-none text-white">Diabetes</a></li>
+            <li id="li1"><a class="text-decoration-none text-white">Mamas y papas</a></li>
+            <li id="li1"><a class="text-decoration-none text-white">Higiene Bucal</a></li>
+            <li id="li1"><a class="text-decoration-none text-white">Bebes</a></li>
 					</ul>
         </div>
         <div class="col-2">
@@ -331,6 +339,15 @@ productContainers.forEach((item, i) => {
         position: relative;
         left: 1000px;
     }
+    #ulLi{
+      text-decoration: none;
+      list-style: none;
+    }
+    #li1{
+      margin-top: 15%;
+      margin-bottom: 15%;
+      text-decoration: none;
+    }
     #myFooter {
         background-color: #0c4265;
     }
@@ -350,7 +367,7 @@ productContainers.forEach((item, i) => {
     .card-header{
       color: #cfe2ff;
     }
-    
+  
     .accordion-button{
             background-color:#dcf0ee ;
         }
@@ -560,6 +577,11 @@ productContainers.forEach((item, i) => {
   grid-column: span 2;
   margin-bottom: 10px;
 }
+.ul{
+  list-style: none;
+  margin: 20%;
+}
+
 
 </style>
 </html>
