@@ -143,35 +143,71 @@
               <label for="floatingPassword"> Repita Contraseña</label>
             </div>
           </div>
-    
         </div>
-          <div>
-
+          <div class="text-center">
+            <button type="button" id="btnCon" class="btn btn-outline-danger"><ion-icon name="push-outline" id="iconEn"></ion-icon></button>
           </div>
-        </div>
-        <div class="col-lg-6 text-center">
-          <div class="card">
           
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+        <div class="col-lg-6">
+          <div class="card">
+           <div class="card-body">
+              <h5 class="card-title text-center">Datos Personales</h5>
+              <p><b>Usuario: </b></p>
+              <p>peri_farm</p>
+              <p><b>Nombre: </b></p>
+              <p>PERI_FARM</p>
+              <p><b>Correo: </b></p>
+              <p>farmapero@gmail.com</p>
             </div>
           </div>
+          <h4 id="titA">Mi Agente de Ventas</h4>
+          <div class="card" id="card1">
+            <div class="card-body">
+               <h5 class="card-title text-center">Datos Personales</h5>
+               <p><b>Nombre: </b></p>
+               <p>Victor Manuel Cortes Vargas</p>
+               <p><b>Correo: </b></p>
+               <p>cova981015@gmail.com</p>
+               <p><b>Telefono: </b></p>
+               <p>44-34-14-83-27</p>
+             </div>
+           </div>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3">
           <div class="card">
             <div class="card-header">
               Informacion de la cuenta
             </div>
             <div class="card-body">
               <a href="perfilAdmin.html" class="link" id="text1"><ion-icon name="person-circle-outline" class="icono-link" id="icon1"></ion-icon>Mi perfil</a>
-              <br>
-              <a href="#" class="link" id="text1"><ion-icon name="bag-outline" id="icon1"></ion-icon>Mi carrito</a>
+              <br><br>
+              <a href="#" class="link" id="text1"><ion-icon name="cart-outline" id="icon1"></ion-icon>Mi lista de deseos</a>
             </div>
           </div>
+          <div class="card" id="card1">
+            <div class="card-header">
+              Herramientas
+            </div>
+            <div class="card-body">
+              <a href="#" class="link" id="text1"><ion-icon name="bag-handle-outline" id="icon1"></ion-icon>Cotizaciones</a>
+              <br><br>
+              <a href="#" class="link" id="text1"><ion-icon name="reader-outline" id="icon1"></ion-icon>Administrar Productos</a>
+              <br><br>
+              <a href="#" class="link" id="text1"><ion-icon name="List-outline" id="icon1"></ion-icon>Material de Marketing</a>
+            </div>
+          </div>
+          <div class="card" id="card1">
+            <div class="card-header">
+              Facturazion
+            </div>
+            <div class="card-body">
+              <a href="#" class="link" id="text1"><ion-icon name="receipt-outline" id="icon1"></ion-icon>Realizar factura</a>
+            </div>
         </div>
+        
       </div>
+</div>
 </div>
 
 
@@ -225,8 +261,8 @@
         <div class="col-2">
             <h6 class="text-white">Ayuda: </h6>
             <ul id="ulLi" class="fg-link-box">
-                <li id="li1"><a class="text-decoration-none text-white">Contacto</a></li>
-              <li id="li1"><a href="derma.html" class="text-decoration-none text-white">Preguntas frecuentes</a></li>
+              <li id="li1"><a class="text-decoration-none text-white">Contacto</a></li>
+              <li id="li1"><a class="text-decoration-none text-white">Preguntas frecuentes</a></li>
               <li id="li1"><a class="text-decoration-none text-white">Facturación</a></li>
               <li id="li1"><a class="text-decoration-none text-white">Conocenos</a></li>
               <li id="li1"><a class="text-decoration-none text-white">Buzon de opiniones</a></li>
@@ -244,7 +280,7 @@
 <style>
   
     .icono{
-        font-size: 30px;
+        font-size: 20px;
         position: relative;
         left: 1000px;
     }
@@ -268,11 +304,26 @@
       text-decoration: none;
       size: 100;
       color: black;
-      font-size: large;
+      font-size: medium;
     }
     #icon1{
      width: 0.7cm;
-     height: 0.7cm;
+     height: 0.45cm;
+     margin-right: 0.5cm;
+    }
+    #btnCon{
+      margin-top: 0.5cm;
+
+    }
+    #card1{
+      margin-top: 0.5cm;
+    }
+    #iconEn{
+      width: 0.7cm;
+      height: 0.7cm;
+    }
+    #titA{
+      margin-top: 0.5cm;
     }
 
 </style>
