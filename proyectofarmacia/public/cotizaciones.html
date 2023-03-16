@@ -115,64 +115,49 @@
     </div>
   </nav>
   <br>
-    <h1 class="text-center"><strong>Mi Cuenta</strong></h1>
+    <h1 id="tit"><strong>Cotizaciones a mis clientes</strong></h1>
   <br>
 <div class="container">
     <div class="row justify-content-around">
-        <div class="col-3">
-          <div class="card">
-            <div class="card-body">
-            <h5>Cambio de contraseña</h5>
-            <br>
-            <div class="text-center">
-              <img id="imgP" src="https://cdn-icons-png.flaticon.com/512/5987/5987462.png" class="rounded img-fluid" alt="perfilimg">
-            </div>
-            <br>
-            <div class="form-floating">
-              <input type="password" class="form-control" id="floatingInput" placeholder="name@example.com">
-              <label for="floatingPassword">Contraseña Antigua</label>
-            </div>
-            <br>
-            <div class="form-floating">
-              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-              <label for="floatingPassword">Contraseña Nueva</label>
-            </div>
-            <br>
-            <div class="form-floating">
-              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-              <label for="floatingPassword"> Repita Contraseña</label>
-            </div>
-          </div>
-        </div>
-          <div class="text-center">
-            <button type="button" id="btnCon" class="btn btn-outline-danger"><ion-icon name="push-outline" id="iconEn"></ion-icon></button>
-          </div>
-          
-        </div>
-        <div class="col-lg-6">
-          <div class="card">
-           <div class="card-body">
-              <h5 class="card-title text-center">Datos Personales</h5>
-              <p><b>Usuario: </b></p>
-              <p>peri_farm</p>
-              <p><b>Nombre: </b></p>
-              <p>PERI_FARM</p>
-              <p><b>Correo: </b></p>
-              <p>farmapero@gmail.com</p>
-            </div>
-          </div>
-          <h4 id="titA">Mi Agente de Ventas</h4>
-          <div class="card" id="card1">
-            <div class="card-body">
-               <h5 class="card-title text-center">Datos Personales</h5>
-               <p><b>Nombre: </b></p>
-               <p>Victor Manuel Cortes Vargas</p>
-               <p><b>Correo: </b></p>
-               <p>cova981015@gmail.com</p>
-               <p><b>Telefono: </b></p>
-               <p>44-34-14-83-27</p>
-             </div>
-           </div>
+        <div class="col-lg-8">
+            <div class="input-group" id="busc">
+                <select class="form-select-sm" id="selc" aria-label="Default select example">
+                    <option selected>Titulo</option>
+                    <option value="1">Fecha</option>
+                    <option value="2">Dirigido a</option>
+                  </select>
+                <input type="text" id="textBus" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                <button type="button" class="btn btn-danger">Danger</button>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Folio</th>
+                            <th scope="col">Titulo</th>
+                            <th scope="col">Fecha</th>
+                            <th scope="col">Total</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1273617846872631874</th>
+                            <td>Cotizacion Farmacias guadalajara</td>
+                            <td>10/10/2022</td>
+                            <td>$175.00</td>
+                          </tr>
+                   
+                        </tbody>
+                      </table>
+                      <div class="float-end">
+                        <a id="btnBus" class="btn btn-primary">Nueva Cotizacion</a>
+                      </div>
+                </div>
+
+              </div>
+
         </div>
         <div class="col-lg-3">
           <div class="card">
@@ -190,7 +175,7 @@
               Herramientas
             </div>
             <div class="card-body">
-              <a href="cotizaciones.html" class="link" id="text1"><ion-icon name="bag-handle-outline" id="icon1"></ion-icon>Cotizaciones</a>
+              <a href="#" class="link" id="text1"><ion-icon name="bag-handle-outline" id="icon1"></ion-icon>Cotizaciones</a>
               <br><br>
               <a href="#" class="link" id="text1"><ion-icon name="reader-outline" id="icon1"></ion-icon>Administrar Productos</a>
               <br><br>
@@ -325,6 +310,29 @@
     #titA{
       margin-top: 0.5cm;
     }
+    #tit{
+        margin-left: 4cm;
+    }
+    #busc{
+        margin-bottom: 1cm;
+    }
+    #selc{
+        border-color: crimson;
+        background-color: crimson;
+        
+    }
+    select,
+option {
+  color: white;
+}
+    #textBus{
+        border-color: crimson;
+    }
+    #btnBus{
+        background-color: crimson;
+        border-color: crimson;
+    }
+
 
 </style>
 </html>
