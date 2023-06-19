@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Farmaceutica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+   
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="inicio.html"><img src="Logo.jpg" alt="FarmaPeri" width="50" height="50" >
+          FarmaPeri</a>
+  
+        <ul class="nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <ion-icon name="barbell-outline"></ion-icon>
+              Nutricion y deporte 
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Alimentos Saludables</a></li>
+              <li><a class="dropdown-item" href="#">Bebidas Saludables</a></li>
+              <li><a class="dropdown-item" href="#">Nutricion Deportiva</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <ion-icon name="hand-right-outline"></ion-icon>
+              Derma
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="derma.html">Capilares</a></li>
+              <li><a class="dropdown-item" href="#">Cuidado Solar</a></li>
+              <li><a class="dropdown-item" href="#">Fragancias</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <ion-icon name="planet-outline"></ion-icon>
+              Bebes
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Formulas</a></li>
+              <li><a class="dropdown-item" href="#">Pañales</a></li>
+              <li><a class="dropdown-item" href="#">Alimento y cuidado</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <ion-icon name="man-outline"></ion-icon>
+              Diabetes
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <ion-icon name="male-female-outline"></ion-icon>
+              Mamás y Papás
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <ion-icon name="happy-outline"></ion-icon>
+              Higiene Bucal
+            </a>
+          </li>
+        </ul>
+  
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="https://media.istockphoto.com/id/1275720974/es/vector/salud-cruzada-m%C3%A9dica-azul-y-verde.jpg?s=612x612&w=0&k=20&c=1RPQ4cbPcEq02OpNkUaKk-DkpYKJKYLWUl2K39W4hG8=" width="50" height="50">
+              FarmaPeri</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+              <a class="nav-link" href="perfilAdmin.html"><ion-icon name="person-circle-outline" class="icono-link"></ion-icon>Perfil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><ion-icon name="cart-outline" class="icono-link"></ion-icon>Carrito</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><ion-icon name="location-outline" class="icono-link"></ion-icon>Dirección</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><ion-icon name="newspaper-outline" class="icono-link"></ion-icon>Facturación</a>
+              </li>
+    
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar....." aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><ion-icon name="search-outline"></ion-icon></button>
+            </form>
+  <br><br>
+            <div class="row justify-content-around">
+              <div class="col-lg-4">
+                <a class="btn btn-outline-primary" href="login.html" role="button" id="btn1">Iniciar Sesion</a>
+              </div>
+              <div class="col-lg-4">
+                <a class="btn btn-outline-primary" href="registro.html" role="button" id="btn2">Registrate sin costo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  <br>
+  <br>
+  <h1 id="tit"><strong>Agregar Nuevo</strong></h1>
+<br>
+<div class="input-group-md mb-3">
+    <span class="input-group-text" id="basic-addon1">Codigo</span>
+    <input type="text" class="form-control" placeholder="37287428957892957" aria-label="Username" aria-describedby="basic-addon1">
+  </div>
+
+<div class="input-group-md mb-3">
+    <span class="input-group-text" id="basic-addon1">Nombre</span>
+    <input type="text" class="form-control" placeholder="Paracetamol" aria-label="Username" aria-describedby="basic-addon1">
+  </div>
+  
+  
+  <div class="input-group mb-3">
+    <span class="input-group-text">Categoria</span>
+    <input type="text" class="form-control" placeholder="Salud" aria-label="Username">
+    <span class="input-group-text">Familia</span>
+    <input type="text" class="form-control" placeholder="Antidiarreico" aria-label="Server">
+  </div>
+
+  <div class="mb-3">
+    <label for="basic-url" class="form-label">Precio</label>
+    <div class="input-group">
+        <span class="input-group-text">$</span>
+        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+        <span class="input-group-text">.</span>
+        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+    </div>
+</div>
+
+  <div class="input-group mb-3">
+    <span class="input-group-text">Cantidad A1</span>
+    <input type="text" class="form-control" placeholder="10" aria-label="Username">
+    <span class="input-group-text">Cantidad A2</span>
+    <input type="text" class="form-control" placeholder="10" aria-label="Server">
+    <span class="input-group-text">Cantidad A3</span>
+    <input type="text" class="form-control" placeholder="10" aria-label="Server">
+  </div>
+
+
+<br><br>
+<div class="text-center"><button type="button" class="btn btn-danger">Agregar Nuevo</button></div>
+</body>
+<br><br><br><br><br><br><br><br><br><br>
+<footer id="myFooter">
+    <br><br>
+    <div>
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="col-2">
+            <div class="text-center">
+            <img src="LOGO1.png" alt="FarmaPeri" width="100" height="100" class="text-center">
+            </div> 
+            <br>
+            <div>
+              <a class= "link-light" href="https://www.google.com.mx/maps/place/SIEMSA+Centro+de+Ingenier%C3%ADa/@19.6893147,-101.1469006,17z/data=!3m1!4b1!4m6!3m5!1s0x842d0fadd6e71c15:0x1d7759c2b4a5a292!8m2!3d19.6893097!4d-101.1447119!16s%2Fg%2F11h26wm5dr">
+              Ocolusen 1640, Rincón de Ocolusen, 58270 Morelia, Mich.
+              </a>
+          </div>
+          <br>
+          <div>
+          <h6 class="text-white">Telefonos: </h6>
+            <a class="text-light">443-586-0305</a>
+            <br>
+            <a class="text-light">443-481-8672</a>
+          </div>
+          </div>
+          <div class="col-2">
+            <h6 class="text-white">Tienda en linea: </h6>
+            <ul id="ulLi" class="fg-link-box">
+                          <li id="li1"><a class="text-decoration-none text-white">Nutricion y deporte</a></li>
+              <li id="li1"><a href="derma.html" class="text-decoration-none text-white">Derma</a></li>
+              <li id="li1"><a class="text-decoration-none text-white">Diabetes</a></li>
+              <li id="li1"><a class="text-decoration-none text-white">Mamas y papas</a></li>
+              <li id="li1"><a class="text-decoration-none text-white">Higiene Bucal</a></li>
+              <li id="li1"><a class="text-decoration-none text-white">Bebes</a></li>
+                      </ul>
+          </div>
+          <div class="col-2">
+              <h6 class="text-white">Ayuda: </h6>
+              <ul id="ulLi" class="fg-link-box">
+                <li id="li1"><a class="text-decoration-none text-white">Contacto</a></li>
+                <li id="li1"><a class="text-decoration-none text-white">Preguntas frecuentes</a></li>
+                <li id="li1"><a class="text-decoration-none text-white">Facturación</a></li>
+                <li id="li1"><a class="text-decoration-none text-white">Conocenos</a></li>
+                <li id="li1"><a class="text-decoration-none text-white">Buzon de opiniones</a></li>
+                <li id="li1"><a class="text-decoration-none text-white">Terminos y condiciones</a></li>
+                        </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<style>
+  
+    .icono{
+        font-size: 20px;
+        position: relative;
+        left: 1000px;
+    }
+    #ulLi{
+      text-decoration: none;
+      list-style: none;
+    }
+    #li1{
+      margin-top: 15%;
+      margin-bottom: 15%;
+      text-decoration: none;
+    }
+    #myFooter {
+        background-color: #0c4265;
+    }
+    #imgP{
+      width:150px;
+      height: 150px;
+    }
+    #text1{
+      text-decoration: none;
+      size: 100;
+      color: black;
+      font-size: medium;
+    }
+    #icon1{
+     width: 0.7cm;
+     height: 0.45cm;
+     margin-right: 0.5cm;
+    }
+    #btnCon{
+      margin-top: 0.5cm;
+
+    }
+    #card1{
+      margin-top: 0.5cm;
+    }
+    #iconEn{
+      width: 0.7cm;
+      height: 0.7cm;
+    }
+    #titA{
+      margin-top: 0.5cm;
+    }
+    #tit{
+        margin-left: 4cm;
+    }
+    #busc{
+        margin-bottom: 1cm;
+    }
+    #selc{
+        border-color: crimson;
+        background-color: crimson;
+        
+    }
+    select,
+option {
+  color: white;
+}
+    #textBus{
+        border-color: crimson;
+    }
+    #btnBus{
+        background-color: crimson;
+        border-color: crimson;
+    }
+
+
+</style>
+</html>
